@@ -8,7 +8,7 @@ describe('ListItem', () => {
         isFruit: false,
         id: 1
     };
-    test('renders a list itemw', ()=> {
+    test('renders a list item', ()=> {
         render(<ListItem title={product.title} isFruit={product.isFruit} id={product.id}/>);
         const element = screen.getByText('Cabbage');
         expect(element).toBeInTheDocument();
