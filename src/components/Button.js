@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 function ButtonBootstrap() {
     return (
         <>
-          <Button variant="primary">Primary</Button>{' '}
+          <Button variant="gitprimary">Primary</Button>{' '}
           <Button variant="outline-secondary">Secondary</Button>{' '}
           <Button variant="outline-success">Success</Button>{' '}
           <Button variant="outline-warning">Warning</Button>{' '}
